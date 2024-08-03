@@ -1,0 +1,83 @@
+body,
+html {
+  height: 100%;
+  background-color: #17153B;
+}
+
+nav{
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #433D8B;
+  box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.217), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #C8ACD6;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: #433D8B;
+  box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.217), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  height: 75vh;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px;
+  background-color: grey;
+  width: 30%;
+  border: 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-family: cursive;
+}
+
+.left {
+  float: left;
+  clear: both;
+  background-color: #C8ACD6;
+  color: white;
+}
+
+.right {
+  float: right;
+  clear: both;
+  background-color: #C8ACD6;
+  color: white;
+}
+
+.send{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#input-message{
+    width: 94%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #433D8B;
+    box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.217), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+  }
+
+#send-button{
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #433D8B;
+    color: white;
+    font-family: cursive;
+}
+
+.send-button :hover {
+  background-color: rgba(255,255,255,0.2);
+  }
+
